@@ -3,7 +3,7 @@
 Este projeto utiliza uma rede neural para prever números escritos à mão com base no dataset **NumberWritten**. O código implementa um modelo de aprendizado profundo para classificação de imagens de dígitos. Abaixo, temos uma descrição detalhada do dataset e do funcionamento do código.
 
 ## Sobre o Dataset: NumberWritten
-O dataset **NumberWritten** é composto por imagens de números manuscritos representadas em uma matriz de 8x8 pixels. Cada imagem é convertida em uma sequência de 64 atributos que descrevem os níveis de intensidade de cinza de cada pixel. A classificação associada indica o número correspondente (0 a 9).
+O dataset **NumberWritten** é composto por cada pixels de uma imagem de números manuscritos representadas em uma matriz de 8x8 pixels. Cada imagem é convertida em uma sequência de 64 atributos que descrevem os níveis de intensidade de cinza de cada pixel. A classificação associada indica o número correspondente (0 a 9).
 
 O dataset, com redução de dimensionabilidade, é projetado para ser compacto e eficiente, permitindo um aprendizado rápido e eficaz. Sua simplicidade o torna ideal para treinar e testar modelos de classificação de imagens em redes neurais.
 
